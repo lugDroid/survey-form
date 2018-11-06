@@ -20,9 +20,9 @@
     <label id="name-label">*Name</label>
     <input type="text" id="name" placeholder="Enter your name" required>
     <label id="email-label">*Email</label>
-    <input type="text" id="email" placeholder="Enter your email" required>
+    <input type="email" id="email" placeholder="Enter your email" required>
     <label id="number-label">Age</label>
-    <input type="text" id="number" placeholder="Enter your age" min="0" max="99">
+    <input type="number" id="number" placeholder="Enter your age" min="1" max="125">
 
     <label>Select your gender</label>
     <select id="dropdown">
@@ -32,31 +32,29 @@
     </select>
 
     <label >*Would you use a bike rental service?</label>
-    <div>
-      <input type="radio" name="use" required>Definitely
-      <input type="radio" name="use" required>Maybe
-      <input type="radio" name="use" required>Not Sure
-    </div>
+    <ul>
+      <li><input type="radio" name="use" required>Definitely</li>
+      <li><input type="radio" name="use" required>Maybe</li>
+      <li><input type="radio" name="use" required>Not Sure</li>
+    </ul>
 
     <label>How often would you use this kind of service?</label>
-    <div>
-      <input type="radio" name="use">Every Week
-      <input type="radio" name="use">Once a Month
-      <input type="radio" name="use">Less than once a Month
-    </div>
+    <ul>
+      <li><input type="radio" name="use">Every Week</li>
+      <li><input type="radio" name="use">Once a Month</li>
+      <li><input type="radio" name="use">Less than once a Month</li>
+    </ul>
 
     <label>What kind of services would you be interested in?</label>
-    <div>
-      <input type="checkbox" value="delivery">Home or site delivery
-      <input type="checkbox" value="collection">Home or site collection
-      <input type="checkbox" value="tours">Guided tours
-      <input type="checkbox" value="days">Renting for several days
-    </div>
+    <ul>
+      <li><input type="checkbox" value="delivery">Home or site delivery</li>
+      <li><input type="checkbox" value="collection">Home or site collection</li>
+      <li><input type="checkbox" value="tours">Guided tours</li>
+      <li><input type="checkbox" value="days">Renting for several days</li>
+    </ul>
 
-    <label>Comments or Suggestions</label>
-    <textarea rows="4" cols="50">
-      Enter your comment here...
-    </textarea>
+    <label>Comments or suggestions</label>
+    <textarea></textarea>
 
     <input type="submit">
   </form>
